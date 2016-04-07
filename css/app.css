@@ -1,0 +1,20 @@
+
+#nav_bar {
+    height: 100px; 
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    background-color: white;
+}
+
+#nav_bar_content {
+}
+
+.nav_link {
+    min-width: 80px;   
+    text-align: center;
+    display: inline;
+}
