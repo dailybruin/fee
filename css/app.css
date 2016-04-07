@@ -40,7 +40,6 @@ div.large-12-columns{
 
 div.large-12-columns.hide { 
 	display: none; 
-=======
 
 #nav_bar {
     height: 100px; 
@@ -60,5 +59,4 @@ div.large-12-columns.hide {
     min-width: 80px;   
     text-align: center;
     display: inline;
->>>>>>> 0f735bf24b349f8a2102244c085418d522390e4d
 }
