@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<html ng-app="myApp" class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,11 +7,15 @@
     <title>Daily Bruin/Bruinwalk Fee Referendum</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+      
+      <!--AngularJS-->
+      <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src="js/angular.js" type="text/javascript"></script>
   </head>
   <body>
 
     <div class="row">
-      <div class="large-12 columns">
+      <div class="large-12-columns" id="header">
 
 
 
@@ -24,9 +28,31 @@
 
 
 
+
+
+
+      </div> <!-- header div -->
+      <div class="large-12-columns" id="about">
+        <h2> About the fee page </h2>
+        <div> 
+              <p> Some details about the fee page</p>
+              <h3> Header3 </h3>
+              <ul>
+                <li> list of objectives, item 1 </li>
+                <li> item 2 </li>
+                <li> item 3</li>
+              </ul>
+        </div>
+        <a class = "button"> Possible link to something else, once we decide what </a>
+      </div>   <!-- about div -->
+      <div class="large-12-columns" id="next set of info">
+      <h2> Same as about the fee page </h2>
       </div>
+      
+   
     </div>
 
+    <span ng-nav-bar></span>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
