@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body { 
 	font-size: 80%; 
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
@@ -39,4 +40,25 @@ div.large-12-columns{
 
 div.large-12-columns.hide { 
 	display: none; 
+=======
+
+#nav_bar {
+    height: 100px; 
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    background-color: white;
+}
+
+#nav_bar_content {
+}
+
+.nav_link {
+    min-width: 80px;   
+    text-align: center;
+    display: inline;
+>>>>>>> 0f735bf24b349f8a2102244c085418d522390e4d
 }
