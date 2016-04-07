@@ -1,3 +1,24 @@
+
+@font-face {	
+	font-family: GothamBold;    /*headline*/
+	src:
+	 url('fonts/Gotham-Bold.otf');
+
+}
+@font-face {
+	font-family: GothamMedium;     /*in front of color head line*/
+	src:
+	 url('fonts/Gotham-Medium.otf');
+
+}
+
+h1 {
+	font-family: 'GothamBold', sans-serif;
+}
+a {
+	font-family: 'GothamMedium', sans-serif;
+}
+
 body { 
 	font-size: 80%; 
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
@@ -54,8 +75,15 @@ div.large-12-columns.hide {
 #nav_bar_content {
 }
 
-.nav_link {
-    min-width: 80px;   
+.nav_link_button {
+    padding: 20px;   
+    margin: 10px;
     text-align: center;
     display: inline;
+<<<<<<< HEAD
+}
+
+.nav_link {
+    
+
 }
