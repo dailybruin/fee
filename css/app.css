@@ -1,3 +1,64 @@
+@font-face {	
+	font-family: GothamBold;    /*headline*/
+	src:
+	 url('fonts/Gotham-Bold.otf');
+
+}
+@font-face {
+	font-family: GothamMedium;     /*in front of color head line*/
+	src:
+	 url('fonts/Gotham-Medium.otf');
+
+}
+
+h1 {
+	font-family: 'GothamBold', sans-serif;
+}
+a {
+	font-family: 'GothamMedium', sans-serif;
+}
+
+body { 
+	font-size: 80%; 
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+ul#tabs { 
+	list-style-type: none; 
+	margin: 30px 0 0 0; 
+	padding: 0 0 0.3em 0; 
+}
+
+ul#tabs li { 
+	display: inline;
+}
+
+ul#tabs li a { 
+	color: #42454a; 
+	background-color: #dedbde; 
+	border: 1px solid #c9c3ba; 
+	border-bottom: none; padding: 0.3em; 
+	text-decoration: none; 
+}
+
+ul#tabs li a:hover { 
+	background-color: #f1f0ee;
+}
+
+ul#tabs li a.selected {
+	color: #000; 
+	background-color: #f1f0ee; 
+	font-weight: bold; 
+	padding: 0.7em 0.3em 0.38em 0.3em; 
+}
+
+div.large-12-columns{ 
+	padding: 0.5em; 
+	background-color: #f1f0ee; 
+}
+
+div.large-12-columns.hide { 
+	display: none; 
 
 #nav_bar {
     height: 100px; 
@@ -18,8 +79,12 @@
     margin: 10px;
     text-align: center;
     display: inline;
+<<<<<<< HEAD
 }
 
 .nav_link {
     
+=======
+>>>>>>> d5229487d2d7acc86f94559158e1ef38b130cdb1
+>>>>>>> 485f03e8121028d1b3d7c75fd0cd246242825ad7
 }
