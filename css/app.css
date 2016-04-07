@@ -1,0 +1,19 @@
+@font-face {	
+	font-family: GothamBold;    /*headline*/
+	src:
+	 url('fonts/Gotham-Bold.otf');
+
+}
+@font-face {
+	font-family: GothamMedium;     /*in front of color head line*/
+	src:
+	 url('fonts/Gotham-Medium.otf');
+
+}
+
+h1 {
+	font-family: 'GothamBold', sans-serif;
+}
+a {
+	font-family: 'GothamMedium', sans-serif;
+}
