@@ -59,6 +59,7 @@ div.large-12-columns{
 
 div.large-12-columns.hide { 
 	display: none; 
+}
 
 #nav_bar {
     height: 100px; 
@@ -79,12 +80,8 @@ div.large-12-columns.hide {
     margin: 10px;
     text-align: center;
     display: inline;
-<<<<<<< HEAD
 }
 
 .nav_link {
-    
-=======
->>>>>>> d5229487d2d7acc86f94559158e1ef38b130cdb1
->>>>>>> 485f03e8121028d1b3d7c75fd0cd246242825ad7
+
 }
