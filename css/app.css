@@ -10,9 +10,27 @@
 	 url('fonts/Gotham-Medium.otf');
 
 }
+@font-face {
+	font-family: Baskerville;     /*subhead*/
+	src:
+	 url('fonts/baskvl.ttf');
+}
+
+@font-face {
+	font-family: GothamRoundedBook;     /*main body text*/
+	src:
+	 url('fonts/GothamRnd-Book.otf');
+}
+@font-face {
+	font-family: DroidSansRegular;     /*online explainers/captions*/
+	src:
+	 url('fonts/DroidSans.ttf');
+}
+
+
 
 h1 {
-	font-family: 'GothamBold', sans-serif;
+	font-family: 'KohinoorBanglaMedium', sans-serif;
 }
 a {
 	font-family: 'GothamMedium', sans-serif;
