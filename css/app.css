@@ -13,8 +13,13 @@
 #nav_bar_content {
 }
 
-.nav_link {
-    min-width: 80px;   
+.nav_link_button {
+    padding: 20px;   
+    margin: 10px;
     text-align: center;
     display: inline;
+}
+
+.nav_link {
+    
 }
