@@ -62,24 +62,24 @@ div.large-12-columns.hide {
 	display: none; 
 }
 
+#logo_top_container{
+    text-align: center;
+}
+
 #nav_bar {
     height: 100px; 
     display: -webkit-flex;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: right;
     background-color: white;
 }
 
-#nav_bar_content {
-}
-
 .nav_link_button {
+    text-align: center;
     padding: 20px;   
     margin: 10px;
-    text-align: center;
     display: inline;
 }
 
