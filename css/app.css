@@ -86,12 +86,23 @@ div.large-12-columns.hide {
 
 #nav_bar {
     height: 100px; 
+    width: 100%;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    clear: both;
+}
+
+.sticky_helper {
+    margin-top: 100px;  
 }
 
 .nav_link_button {
