@@ -2,45 +2,15 @@
 <div class="nav-section">
 <nav id="nav_bar">
     <ul id="nav_bar_list">
-        <li class="nav_link_button small-1 medium-2 large-1">
-            <a class="nav_link" href="index.html">Home</a>
-        </li>
-        <li class="nav_link_button small-1 medium-2 large-1">
-            <a class="nav_link" href="about.html">About</a>
-        </li>
-        <li class="nav_link_button small-1 medium-2 large-1">
-            <a class="nav_link" href="faq.html">FAQ</a>
-        </li>
-        <li class="nav_link_button small-1 medium-2 large-1">
-            <a class="nav_link" href="finances.html">Finances</a>
-        </li>
-        <li class="nav_link_button small-1 medium-2 large-1">
-            <a class="nav_link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav_link_button small-1 medium-2 large-1">
-            <a class="nav_link" href="vote.html">Vote</a>
+        <li ng-repeat="for option in getOptions()" class="nav_link_button small-1 medium-2 large-1">
+            <a class="nav_link" href={{option.link}}>{{option.name}}</a>
         </li>
     </ul>
 </nav>
 <nav id="nav_bar_small">
     <ul id="nav_bar_small_list">
             <li class="nav_link_button_small">
-                <a class="nav_link" href="index.html">Home</a>
-            </li>
-            <li class="nav_link_button_small">
-                <a class="nav_link" href="about.html">About</a>
-            </li>
-            <li class="nav_link_button_small">
-                <a class="nav_link" href="faq.html">FAQ</a>
-            </li>
-            <li class="nav_link_button_small">
-                <a class="nav_link" href="finances.html">Finances</a>
-            </li>
-            <li class="nav_link_button_small">
-                <a class="nav_link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav_link_button_small">
-                <a class="nav_link" href="vote.html">Vote</a>
+                <a class="nav_link" href={{option.link}}>{{option.name}}</a>
             </li>
     </ul>
 </nav>

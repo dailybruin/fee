@@ -248,4 +248,7 @@ div.large-12-columns.hide {
     #main_content {
         display: none;   
     }
+    .sticky_helper {
+        margin-top: 60px;   
+    }
 }
