@@ -81,7 +81,7 @@ div.large-12-columns.hide {
 	display: none; 
 }
 
-.homepage-text{	background-color: #f1f0ee; 
+.homepage-text{	/*background-color: #f1f0ee; */
 font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
@@ -90,7 +90,8 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
 .homepage-title{
-		background-color: #f1f0ee; 
+		/*background-color: #f1f0ee; */
+		color: cmyk(90, 40, 0, 0);
 		padding: 0.7em 0.3em 0.38em 0.3em; 
 		font-family: 'GothamMedium', Verdana, Arial, Sans-Serif; 
 
@@ -127,17 +128,40 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
     margin-top: 100px;  
 }
 
+#nav_bar_list {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+}
+
 .nav_link_button {
     text-align: center;
     padding: 20px;   
     margin: 10px;
+    display: inline;
+}
+
+#nav_bar_small {
+    display: none;
+}
+
+#nav_bar_small_list {
+    list-style: none;   
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav_link_button_small {
+    text-align: center;
+    display: inline;
+    min-width: 30%;
+    vertical-align: center;
 }
 
 
 .nav_link {
 	color: #000; 
 	padding: 0.7em 0.3em 0.38em 0.3em;
-
 }
 
 
@@ -166,4 +190,8 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
     #nav_bar {
         display: none;   
     }
+    #nav_bar_small {
+        display: block;   
+    }
 }
+
