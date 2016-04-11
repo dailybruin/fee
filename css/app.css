@@ -93,6 +93,7 @@ div.large-12-columns.hide {
 
 #nav_bar {
     height: 85px; 
+    width: 100%;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
@@ -101,7 +102,6 @@ div.large-12-columns.hide {
     background-color: white;
 }
 
-/*
 .sticky {
     position: fixed;
     top: 0;
@@ -111,7 +111,6 @@ div.large-12-columns.hide {
 .sticky_helper {
     margin-top: 100px;  
 }
-*/
 
 .nav_link_button {
     text-align: center;
@@ -123,4 +122,16 @@ div.large-12-columns.hide {
 	color: #000; 
 	padding: 0.7em 0.3em 0.38em 0.3em;
 
+}
+
+@media screen and (max-width: 650px) {
+    #nav_bar {
+        height: 60px; 
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #nav_bar {
+        display: none;   
+    }
 }
