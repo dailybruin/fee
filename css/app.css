@@ -153,7 +153,7 @@ div.large-12-columns.hide {
 }
 
 #nav_bar {
-    min-height: 85px; 
+    height: 85px; 
     width: 100%;
     display: -webkit-flex;
     display: flex;
@@ -171,11 +171,14 @@ div.large-12-columns.hide {
     clear: both;
 }
 
+.sticky_helper {
+    margin-top: 85px;  
+}
+
 #nav_bar_list {
     list-style: none;
     padding: 0;
     list-style-type: none;
-
 }
 
 .nav_link_button {
@@ -188,11 +191,15 @@ div.large-12-columns.hide {
 #nav_bar_small {
     display: none;
     text-align: center;
+    height: 60px;
+    padding-top: 10px;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid #ddd;
 }
 
 #nav_bar_small_list {
     list-style: none;   
-    padding: 0;
     list-style-type: none;
     display: -webkit-flex;
     display: flex;
@@ -230,12 +237,15 @@ div.large-12-columns.hide {
 } 
 @media screen and (max-width: 730px) {
     .nav_link {
-        font-size: 14px;   
+        font-size: 15px;   
     }
     #nav_bar {
         display: none;   
     }
     #nav_bar_small {
         display: block;   
+    }
+    #main_content {
+        display: none;   
     }
 }

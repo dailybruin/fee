@@ -3,11 +3,11 @@ $(document).ready(function(){
         var height = $(window).scrollTop();
         if(height>$("#logo_top_container").height()) {
             $("#nav_bar").addClass("sticky");
-            $("#main_content").css("height", $("#nav_bar").height());
+            $("#main_content").addClass("sticky_helper");
         }
         else{
             $("#nav_bar").removeClass("sticky");
-            $("#main_content").css("height", 0);
+            $("#main_content").removeClass("sticky_helper");
         }
     });
 });
