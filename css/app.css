@@ -86,7 +86,6 @@ div.large-12-columns.hide {
 
 #nav_bar {
     height: 85px; 
-    width: 100%;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
@@ -95,6 +94,7 @@ div.large-12-columns.hide {
     background-color: white;
 }
 
+/*
 .sticky {
     position: fixed;
     top: 0;
@@ -104,12 +104,12 @@ div.large-12-columns.hide {
 .sticky_helper {
     margin-top: 100px;  
 }
+*/
 
 .nav_link_button {
     text-align: center;
     padding: 20px;   
     margin: 10px;
-    display: inline;
 }
 
 .nav_link {
