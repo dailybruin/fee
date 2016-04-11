@@ -1,4 +1,8 @@
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
 @font-face {	
 	font-family: GothamBold;    /*headline*/
 	src:
@@ -165,10 +169,6 @@ div.large-12-columns.hide {
     position: fixed;
     top: 0;
     clear: both;
-}
-
-.sticky_helper {
-    margin-top: 100px;  
 }
 
 #nav_bar_list {
