@@ -78,9 +78,6 @@ h2 {
 	font-family: 'GothamMedium', sans-serif;
 }
 
-
-
-
 body { 
 	font-family: 'Baskerville', Times, serif;
 }
@@ -151,7 +148,7 @@ div.large-12-columns.hide {
 }
 
 #nav_bar {
-    height: 85px; 
+    min-height: 85px; 
     width: 100%;
     display: -webkit-flex;
     display: flex;
@@ -175,6 +172,7 @@ div.large-12-columns.hide {
     list-style: none;
     padding: 0;
     list-style-type: none;
+
 }
 
 .nav_link_button {
@@ -186,21 +184,25 @@ div.large-12-columns.hide {
 
 #nav_bar_small {
     display: none;
+    text-align: center;
 }
 
 #nav_bar_small_list {
     list-style: none;   
     padding: 0;
     list-style-type: none;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .nav_link_button_small {
-    text-align: center;
     display: inline;
-    min-width: 30%;
-    vertical-align: center;
+    margin-right: 3px;
 }
-
 
 .nav_link {
 	color: #000; 
@@ -223,18 +225,17 @@ div.large-12-columns.hide {
 	font-weight: bold; 
 	padding: 0.7em 0.3em 0.38em 0.3em; 
 } 
-@media screen and (max-width: 650px) {
-    #nav_bar {
-        height: 60px; 
+@media screen and (max-width: 730px) {
+    .nav_link {
+        font-size: 14px;   
     }
-}
-
-@media screen and (max-width: 420px) {
     #nav_bar {
         display: none;   
+    }
+    #main_content {
+        display: none;
     }
     #nav_bar_small {
         display: block;   
     }
 }
-
