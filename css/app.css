@@ -109,7 +109,7 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
 #nav_bar {
-    height: 85px; 
+    min-height: 85px; 
     width: 100%;
     display: -webkit-flex;
     display: flex;
@@ -133,6 +133,7 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
     list-style: none;
     padding: 0;
     list-style-type: none;
+
 }
 
 .nav_link_button {
@@ -144,21 +145,25 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 
 #nav_bar_small {
     display: none;
+    text-align: center;
 }
 
 #nav_bar_small_list {
     list-style: none;   
     padding: 0;
     list-style-type: none;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .nav_link_button_small {
-    text-align: center;
     display: inline;
-    min-width: 30%;
-    vertical-align: center;
+    margin-right: 3px;
 }
-
 
 .nav_link {
 	color: #000; 
@@ -187,9 +192,12 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 560px) {
     #nav_bar {
         display: none;   
+    }
+    #main_content {
+        display: none;
     }
     #nav_bar_small {
         display: block;   
