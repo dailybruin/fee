@@ -235,9 +235,6 @@ div.large-12-columns.hide {
     #nav_bar {
         display: none;   
     }
-    #main_content {
-        display: none;
-    }
     #nav_bar_small {
         display: block;   
     }
