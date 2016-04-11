@@ -86,6 +86,10 @@ div.large-12-columns.hide {
 font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
+#about{
+	background-color: #f1f0ee; 
+}
+
 .homepage-title{
 		background-color: #f1f0ee; 
 		padding: 0.7em 0.3em 0.38em 0.3em; 
@@ -131,8 +135,26 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
     margin: 10px;
 }
 
+
 .nav_link {
 	color: #000; 
 	padding: 0.7em 0.3em 0.38em 0.3em;
 
 }
+
+
+.sticky a:hover{
+	/*background-color: #f1f0ee; */
+	color: #42454a; 
+	background-color: #dedbde; 
+	border: 1px solid #c9c3ba; 
+	border-bottom: none; padding: 0.3em; 
+	text-decoration: none; 
+}
+
+.sticky a.selected{
+	color: #000; 
+	background-color: #f1f0ee; 
+	font-weight: bold; 
+	padding: 0.7em 0.3em 0.38em 0.3em; 
+} 
