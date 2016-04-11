@@ -82,7 +82,7 @@ div.large-12-columns.hide {
 	display: none; 
 }
 
-.homepage-text{	background-color: #f1f0ee; 
+.homepage-text{	/*background-color: #f1f0ee; */
 font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
@@ -91,7 +91,8 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
 .homepage-title{
-		background-color: #f1f0ee; 
+		/*background-color: #f1f0ee; */
+		color: cmyk(90, 40, 0, 0);
 		padding: 0.7em 0.3em 0.38em 0.3em; 
 		font-family: 'GothamMedium', Verdana, Arial, Sans-Serif; 
 
