@@ -142,7 +142,7 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
 
-.sticky a:hover{
+.nav-section a:hover{
 	/*background-color: #f1f0ee; */
 	color: #42454a; 
 	background-color: #dedbde; 
@@ -151,7 +151,7 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 	text-decoration: none; 
 }
 
-.sticky a.selected{
+.nav-section a.selected{
 	color: #000; 
 	background-color: #f1f0ee; 
 	font-weight: bold; 
