@@ -1,6 +1,6 @@
 var myApp=angular.module("myApp", []);
 
-myApp.controller("myController", function(){
+myApp.controller("myController", function($scope){
     
     $scope.navOptions=[
         {
@@ -27,11 +27,11 @@ myApp.controller("myController", function(){
             name: "Vote",
             link: "vote.html"
         },
-    ]
+    ];
     
     $scope.getOptions=function(){
         return this.navOptions;
-    }
+    };
 
 });
 
