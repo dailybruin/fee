@@ -31,15 +31,18 @@
 
 
 h2 {
-	font-family: 'KohinoorBanglaMedium', sans-serif;
+	font-family: 'GothamMedium', sans-serif;
 }
+
 a {
 	font-family: 'GothamMedium', sans-serif;
 }
 
+
+
 body { 
 	font-size: 80%; 
-	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
 ul#tabs { 
@@ -80,11 +83,20 @@ div.large-12-columns.hide {
 }
 
 .homepage-text{	background-color: #f1f0ee; 
+font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 }
 
 .homepage-title{
 		background-color: #f1f0ee; 
+		padding: 0.7em 0.3em 0.38em 0.3em; 
+		font-family: 'GothamMedium', Verdana, Arial, Sans-Serif; 
 
+
+}
+.subheader{
+	background-color: #f1f0ee; 
+		padding: 0.7em 0.3em 0.38em 0.3em; 
+		font-family: 'GothamBold', Verdana, Arial, Sans-Serif;
 }
 
 #logo_top_container{
