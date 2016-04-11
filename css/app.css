@@ -68,6 +68,7 @@ a {
 a:hover {
 	font-family: 'GothamMedium', sans-serif;
 	color: #0080C5;
+	border-bottom: 1px solid #F8CF23;
 }
 
 button {
@@ -215,8 +216,10 @@ div.large-12-columns.hide {
 .nav-section a:hover{
 	/*background-color: #f1f0ee; */
 	color: #0080C5;
-	border-bottom: none; padding: 0.3em; 
+	border-bottom: 2px solid #F8CF23;
+	padding: 0.3em; 
 	text-decoration: none; 
+
 }
 
 .nav-section a.selected{
