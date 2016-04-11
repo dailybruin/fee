@@ -73,9 +73,6 @@ h2 {
 	font-family: 'GothamMedium', sans-serif;
 }
 
-
-
-
 body { 
 	font-family: 'Baskerville', Times, serif;
 }
@@ -221,13 +218,10 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 	font-weight: bold; 
 	padding: 0.7em 0.3em 0.38em 0.3em; 
 } 
-@media screen and (max-width: 650px) {
-    #nav_bar {
-        height: 60px; 
+@media screen and (max-width: 730px) {
+    .nav_link {
+        font-size: 14px;   
     }
-}
-
-@media screen and (max-width: 560px) {
     #nav_bar {
         display: none;   
     }
@@ -238,4 +232,3 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
         display: block;   
     }
 }
-
