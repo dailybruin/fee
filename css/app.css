@@ -109,6 +109,7 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 
 #nav_bar {
     height: 85px; 
+    width: 100%;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
@@ -117,7 +118,6 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
     background-color: white;
 }
 
-/*
 .sticky {
     position: fixed;
     top: 0;
@@ -127,7 +127,6 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 .sticky_helper {
     margin-top: 100px;  
 }
-*/
 
 .nav_link_button {
     text-align: center;
@@ -158,3 +157,14 @@ font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
 	font-weight: bold; 
 	padding: 0.7em 0.3em 0.38em 0.3em; 
 } 
+@media screen and (max-width: 650px) {
+    #nav_bar {
+        height: 60px; 
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #nav_bar {
+        display: none;   
+    }
+}
