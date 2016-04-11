@@ -36,6 +36,11 @@ h1 {
 	border-bottom: 4px solid;
 }
 
+b {
+	font-family: 'GothamMedium', sans-serif;
+	color: #333;
+}
+
 .colorA {
 	color: #20406F;
 	border-bottom-color: #20406F;
@@ -118,25 +123,27 @@ div.large-12-columns.hide {
 }
 
 .homepage-text{	/*background-color: #f1f0ee; */
-font-family: 'Baskerville', Verdana, Arial, Sans-Serif;
+	font-family: 'Baskerville', Times, serif;
 }
 
-#about{
-	background-color: #f1f0ee; 
+.about {
+	text-align: center;
 }
 
 .homepage-title{
-		/*background-color: #f1f0ee; */
-		color: cmyk(90, 40, 0, 0);
-		padding: 0.7em 0.3em 0.38em 0.3em; 
-		font-family: 'GothamMedium', Verdana, Arial, Sans-Serif; 
-
-
+	display: block;
+	font-family: 'GothamBold', 'Helvetica', sans-serif;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	color: #0080C5;
 }
+
 .subheader{
-	background-color: #f1f0ee; 
-		padding: 0.7em 0.3em 0.38em 0.3em; 
-		font-family: 'GothamBold', Verdana, Arial, Sans-Serif;
+	background-color: #fafafa; 
+	padding: 0.7em 0.3em 0.38em 0.3em; 
+	font-family: 'GothamBold', Helvetica, Sans-Serif;
 }
 
 #logo_top_container{
