@@ -85,6 +85,7 @@ h2 {
 
 body { 
 	font-family: 'Baskerville', Times, serif;
+    padding-bottom: 60px;
 }
 
 ul#tabs { 
