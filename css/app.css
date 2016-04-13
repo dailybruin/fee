@@ -254,10 +254,10 @@ div.large-12-columns.hide {
 
 @media screen and (max-width: 380px){
     #nav_bar_small {
-        height: 100px;
+        height: 80px;
     }
     #nav_bar_small_list {
-        height: 100px;
+        height: 60px;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
