@@ -252,3 +252,16 @@ div.large-12-columns.hide {
         margin-top: 60px;   
     }
 }
+
+@media screen and (max-width: 380px){
+    #nav_bar_small {
+        height: 100px;
+    }
+    #nav_bar_small_list {
+        height: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
