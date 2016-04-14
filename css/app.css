@@ -113,7 +113,8 @@ ul#tabs li a.selected {
 }
 
 div.large-12-columns{ 
-	padding: 0.5em; 
+		padding: 0.5em; 
+
 }
 
 div.large-12-columns.hide { 
