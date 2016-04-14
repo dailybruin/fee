@@ -1,63 +1,13 @@
 <?php
-/* Set e-mail recipient */
-$myemail  = "rvarm1@gmail.com";
+$recipient = "rvarm1@gmail.com";
+$subject   = "test email";
+$message   = "Hi
 
-/* Check all form inputs using check_input function */
-$yourname = check_input($_POST['yourname'], "Enter your name");
-$email    = check_input($_POST['email']);
-$comments = check_input($_POST['comments'], "Write your comments");
-
-/* If e-mail is not valid show error message */
-if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
-{
-    show_error("E-mail address not valid");
-}
-
-/* Let's prepare the message for the e-mail */
-$message = "Hello!
-
-Your contact form has been submitted by:
-
-Name: $yourname
-E-mail: $email
-Comments: $comments
-
-
-End of message
+This is a test message (e-mail body).
+This is a new line
+Test test
 ";
 
-/* Send the message using mail() function */
-mail($myemail, "subjectname", $message);
-
-/* Redirect visitor to the thank you page */
-header('Location: thanks.htm');
-exit();
-
-/* Functions we used */
-function check_input($data, $problem='')
-{
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    if ($problem && strlen($data) == 0)
-    {
-        show_error($problem);
-    }
-    return $data;
-}
-
-function show_error($myError)
-{
-?>
-    <html>
-    <body>
-
-    <b>Please correct the following error:</b><br />
-    <?php echo $myError; ?>
-
-    </body>
-    </html>
-<?php
-exit();
-}
+mail($recipient, $subject, $message);
+header('Location:thanks.html');
 ?>
