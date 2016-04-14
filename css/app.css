@@ -257,6 +257,10 @@ div.large-12-columns.hide {
     .sticky_helper {
         margin-top: 60px;   
     }
+
+    .medium-push-4 h1, .medium-push-4 p {
+		text-align: left;
+	}
 }
 
 @media screen and (max-width: 380px){
