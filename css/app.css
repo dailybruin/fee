@@ -32,7 +32,6 @@
 	 url('fonts/DroidSans.ttf');
 }
 
-
 h1 {
 	margin-top: 1em;
 	font-family: 'GothamBold', 'Helvetica', sans-serif;
@@ -155,8 +154,13 @@ div.large-12-columns.hide {
 	font-family: 'GothamBold', Helvetica, Sans-Serif;
 }
 
-#logo_top_container{
+#logo_top_container {
     text-align: center;
+    background-color: #fff;
+}
+
+#logo_top_container h2 {
+	margin-bottom: 0;
 }
 
 #nav_bar {
@@ -170,6 +174,10 @@ div.large-12-columns.hide {
     background-color: white;
     z-index: 1;
     border-bottom: 1px solid #ddd;
+
+    -webkit-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
+    -moz-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
+    box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
 }
 
 .sticky {
