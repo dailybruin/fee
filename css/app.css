@@ -163,6 +163,16 @@ div.large-12-columns.hide {
 	margin-bottom: 0;
 }
 
+#nav_bar, #nav_bar_small {
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid #ddd;
+    
+    -webkit-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
+    -moz-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
+    box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
+}
+
 #nav_bar {
     height: 85px; 
     width: 100%;
@@ -171,13 +181,6 @@ div.large-12-columns.hide {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    z-index: 1;
-    border-bottom: 1px solid #ddd;
-
-    -webkit-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
-    -moz-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
-    box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
 }
 
 .sticky {
@@ -209,9 +212,6 @@ div.large-12-columns.hide {
     text-align: center;
     height: 60px;
     padding-top: 10px;
-    background-color: white;
-    z-index: 1;
-    border-bottom: 1px solid #ddd;
 }
 
 #nav_bar_small_list {
@@ -281,5 +281,8 @@ div.large-12-columns.hide {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+    .homepage-title{
+        font-size: 1.8rem;
     }
 }
