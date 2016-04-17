@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="176px" viewBox="0 0 1000 176" enable-background="new 0 0 1000 176" xml:space="preserve">
+
+
+<defs>
+  <style type="text/css">
+    @font-face {
+		font-family: Gotham-Medium;
+		src: url('css/fonts/Gotham-Medium.otf');
+	}
+  </style>
+</defs>
+
+<font horiz-adv-x="1000">
+<!-- HTF Gotham  Copr. 2000 The Hoefler Type Foundry, Inc. Info: www.typography.com -->
+<!-- Copyright: Copyright 2016 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="Gotham-Medium" units-per-em="1000" underline-position="-133" underline-thickness="20"/>
+<missing-glyph horiz-adv-x="500"/>
+<glyph unicode="a" horiz-adv-x="587" d="M519,0l0,313C519,454 443,536 287,536C201,536 144,518 86,492l33,-97C167,415 211,428 270,428C354,428 400,388 400,315l0,-13C359,315 318,324 254,324C131,324 40,268 40,154l0,-2C40,46 128,-11 228,-11C308,-11 363,22 399,65l0,-65M402,191C402,125 342,80 262,80C205,80 160,108 160,158l0,2C160,214 205,245 281,245C328,245 371,236 402,224z"/>
+<glyph unicode="&amp;" horiz-adv-x="696" d="M666,51l-110,112C592,212 623,267 651,323l-93,49C535,323 510,277 483,237l-120,122C456,394 517,449 517,542C517,638 442,712 331,712C206,712 130,630 130,535C130,483 148,440 188,388C92,347 39,282 39,191C39,68 137,-10 267,-10C352,-10 422,25 482,81l93,-95M408,535C408,483 370,451 298,425C259,468 245,494 245,530C245,580 278,615 328,615C375,615 408,584 408,535M412,153C372,115 328,92 280,92C212,92 163,135 163,195C163,241 191,284 256,312z"/>
+<glyph unicode="b" horiz-adv-x="670" d="M622,264C622,440 501,539 376,539C291,539 236,495 197,440l0,290l-121,0l0,-730l121,0l0,82C234,33 289,-11 376,-11C502,-11 622,88 622,264M499,264C499,159 431,94 348,94C266,94 194,161 194,264C194,367 266,434 348,434C430,434 499,368 499,264z"/>
+<glyph unicode="d" horiz-adv-x="670" d="M595,0l0,730l-121,0l0,-284C436,495 381,539 294,539C168,539 49,440 49,264C49,88 170,-11 294,-11C380,-11 435,33 474,88l0,-88M476,264C476,161 404,94 323,94C241,94 171,160 171,264C171,370 240,434 323,434C404,434 476,367 476,264z"/>
+<glyph unicode="e" horiz-adv-x="604" d="M168,221l388,0C557,233 558,243 558,254C558,407 473,539 305,539C154,539 47,415 47,263C47,99 165,-12 318,-12C415,-12 484,27 534,87l-71,63C421,109 379,87 320,87C242,87 182,135 168,221M167,301C178,383 230,440 304,440C384,440 430,379 438,301z"/>
+<glyph unicode="f" horiz-adv-x="376" d="M222,524l0,29C222,608 246,633 292,633C318,633 339,628 363,620l0,102C336,730 307,736 265,736C161,736 103,679 103,563l0,-38l-67,0l0,-101l67,0l0,-424l121,0l0,424l138,0l0,100z"/>
+<glyph unicode="i" horiz-adv-x="286" d="M208,609l0,115l-130,0l0,-115M204,0l0,528l-121,0l0,-528z"/>
+<glyph unicode="k" horiz-adv-x="582" d="M353,313l210,215l-147,0l-219,-234l0,436l-121,0l0,-730l121,0l0,151l74,77l159,-228l140,0z"/>
+<glyph unicode="l" horiz-adv-x="286" d="M204,0l0,730l-121,0l0,-730z"/>
+<glyph unicode="m" horiz-adv-x="950" d="M515,446C487,502 434,539 358,539C277,539 231,495 197,448l0,80l-121,0l0,-528l121,0l0,297C197,379 243,429 310,429C377,429 417,383 417,301l0,-301l121,0l0,298C538,383 585,429 651,429C719,429 758,384 758,300l0,-300l121,0l0,337C879,466 809,539 694,539C614,539 558,502 515,446z"/>
+<glyph unicode="n" horiz-adv-x="620" d="M197,298C197,380 246,429 316,429C388,429 429,382 429,300l0,-300l121,0l0,336C550,459 481,539 362,539C280,539 231,496 197,446l0,82l-121,0l0,-528l121,0z"/>
+<glyph unicode="1" horiz-adv-x="396" d="M26,645l26,-100l126,35l0,-580l122,0l0,705l-86,0z"/>
+<glyph unicode="r" horiz-adv-x="413" d="M197,201C197,341 271,410 377,410l7,0l0,128C291,542 230,488 197,409l0,119l-121,0l0,-528l121,0z"/>
+<glyph unicode="6" horiz-adv-x="656" d="M571,634C510,683 448,712 357,712C159,712 57,545 57,330C57,188 89,115 142,61C189,15 251,-12 337,-12C484,-12 597,86 597,227C597,368 488,448 352,448C270,448 222,414 185,378C191,506 249,600 353,600C414,600 456,577 505,539M474,222C474,149 421,94 334,94C246,94 189,148 189,221C189,289 244,345 331,345C418,345 474,293 474,222z"/>
+<glyph unicode=" " horiz-adv-x="300"/>
+<glyph unicode="2" horiz-adv-x="613" d="M308,600C372,600 421,560 421,491C421,428 386,383 290,302l-241,-205l0,-97l506,0l0,108l-333,0l144,120C490,329 548,389 548,500C548,625 457,710 317,710C192,710 126,657 59,563l87,-68C200,565 244,600 308,600z"/>
+<glyph unicode="u" horiz-adv-x="620" d="M423,230C423,148 374,99 304,99C232,99 191,146 191,228l0,300l-121,0l0,-336C70,69 139,-11 258,-11C340,-11 389,32 423,82l0,-82l121,0l0,528l-121,0z"/>
+<glyph unicode="w" horiz-adv-x="861" d="M482,530l-103,0l-117,-364l-106,362l-124,0l171,-532l108,0l119,361l118,-361l108,0l173,532l-121,0l-108,-362z"/>
+<glyph unicode="y" horiz-adv-x="596" d="M568,528l-126,0l-137,-392l-150,392l-129,0l220,-528C226,-46 205,-61 171,-61C146,-61 122,-53 100,-41l-41,-90C96,-151 133,-163 184,-163C269,-163 316,-123 358,-15z"/>
+<glyph unicode="0" horiz-adv-x="724" d="M667,351C667,552 547,712 363,712C179,712 57,550 57,349C57,148 177,-12 361,-12C545,-12 667,150 667,351M540,349C540,210 472,99 363,99C254,99 184,211 184,351C184,491 252,601 361,601C470,601 540,488 540,349z"/>
+</font>
+
+	<rect fill="#FFFFFF" width="1000" height="180"/>
+<rect x="578" y="88" fill="#0080C6" width="422" height="67"/>
+<rect y="23" fill="#1B1D35" width="609" height="90.04"/>
+<text transform="matrix(1 0 0 1.0526 37 114.459)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">d</tspan><tspan x="31.208" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">a</tspan><tspan x="58.234" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5" letter-spacing="-1">i</tspan><tspan x="70.679" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5" letter-spacing="-1">l</tspan><tspan x="82.981" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">y</tspan><tspan x="111.006" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5"> </tspan><tspan x="124.306" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">b</tspan><tspan x="155.465" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5" letter-spacing="-1">r</tspan><tspan x="174.038" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">u</tspan><tspan x="202.585" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">i</tspan><tspan x="215.22" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">n</tspan><tspan x="244.385" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5"> </tspan><tspan x="257.684" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">&amp;</tspan><tspan x="290.506" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5"> </tspan><tspan x="303.806" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">b</tspan><tspan x="334.966" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5" letter-spacing="-1">r</tspan><tspan x="353.538" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">ui</tspan><tspan x="394.672" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5" letter-spacing="-1">nw</tspan><tspan x="461.79" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">a</tspan><tspan x="488.911" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">l</tspan><tspan x="501.499" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="47.5">k </tspan></text>
+<text transform="matrix(1 0 0 1.0526 595.8379 156)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">r</tspan><tspan x="15.19" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">e</tspan><tspan x="37.781" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">f</tspan><tspan x="51.725" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">e</tspan><tspan x="74.782" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">r</tspan><tspan x="89.973" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">en</tspan><tspan x="136.712" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">d</tspan><tspan x="162.419" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">u</tspan><tspan x="186.062" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">m</tspan><tspan x="222.83" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95"> </tspan><tspan x="233.735" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">2</tspan><tspan x="256.872" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95" letter-spacing="-1">0</tspan><tspan x="283.903" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">1</tspan><tspan x="299.132" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="38.95">6</tspan></text>
+</svg>

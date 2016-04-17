@@ -32,6 +32,10 @@
 	 url('fonts/DroidSans.ttf');
 }
 
+#logo_top_container {
+	font-family: 'GothamMedium';
+}
+
 h1 {
 	margin-top: 1em;
 	font-family: 'GothamBold', 'Helvetica', sans-serif;
