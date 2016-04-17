@@ -64,6 +64,11 @@ b {
 	text-align: right;
 }
 
+.graphic {
+	width: 50%;
+	float: right;
+}
+
 a {
 	font-family: 'GothamMedium', sans-serif;
 	color: #20406F;
@@ -169,9 +174,9 @@ div.large-12-columns.hide {
     z-index: 1;
     border-bottom: 1px solid #ddd;
     
-    -webkit-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
-    -moz-box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
-    box-shadow: 0 0.7rem 1rem 0 rgba(100, 100, 100, 0.1);
+    -webkit-box-shadow: 0 0.7rem 1rem 0 rgba(200, 200, 200, 0.1);
+    -moz-box-shadow: 0 0.7rem 1rem 0 rgba(200, 200, 200, 0.1);
+    box-shadow: 0 0.7rem 1rem 0 rgba(200, 200, 200, 0.1);
 }
 
 #nav_bar {
