@@ -181,21 +181,23 @@ div.large-12-columns.hide {
     background-color: white;
     z-index: 1;
     border-bottom: 1px solid #ddd;
-    
+
     -webkit-box-shadow: 0 0.7rem 1rem 0 rgba(200, 200, 200, 0.1);
     -moz-box-shadow: 0 0.7rem 1rem 0 rgba(200, 200, 200, 0.1);
     box-shadow: 0 0.7rem 1rem 0 rgba(200, 200, 200, 0.1);
 }
 
 #nav_bar {
-    height: 80px; 
+    height: 60px; 
     width: 100%;
+    padding-top: 20px;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 
 .sticky {
     position: fixed;
