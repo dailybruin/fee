@@ -296,3 +296,7 @@ div.large-12-columns.hide {
         font-size: 1.8rem;
     }
 }
+
+#media_titles {
+	padding: 50px 50px 70px 50px;
+}
