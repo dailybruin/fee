@@ -97,7 +97,6 @@ h2 {
 
 body { 
 	font-family: 'GothamRoundedBook', Helvetica, sans-serif;
-    padding-bottom: 60px;
 }
 
 p {
@@ -303,4 +302,11 @@ div.large-12-columns.hide {
 
 #media_titles {
 	margin-top: 2em;
+}
+
+footer {
+	margin-top: 6em;
+	margin-bottom: 2em;
+	font-size: 0.5em;
+	text-align: center;
 }
