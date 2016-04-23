@@ -87,9 +87,15 @@ p a {
 	font-weight: bold;
 }
 
-button {
+.button {
 	background-color: #0080C5;
 }
+
+.button:hover {
+	border: 1px solid transparent;
+	background-color: #1B1D35;
+}
+
 
 h2 {
 	font-family: 'GothamMedium', sans-serif;
@@ -300,13 +306,29 @@ div.large-12-columns.hide {
     }
 }
 
-#media_titles {
-	margin-top: 2em;
-}
-
 footer {
 	margin-top: 6em;
 	margin-bottom: 2em;
 	font-size: 0.5em;
 	text-align: center;
 }
+
+.media-imgs {
+	margin-top: 2rem;
+	font-size: 0;
+}
+
+.media-imgs a:hover {
+	border: none;
+}
+
+.img-top {
+	width: 25%;
+	padding: 1%;
+}
+
+.img-bottom {
+	width: 14.2%;
+	padding: 1%;
+}
+
